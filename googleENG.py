@@ -135,7 +135,7 @@ if "-q" in lis:
         for c in query:
             char += f'{c} '
         
-        box.createDash
+        box().createDash
         
         for sea in googlesearch.search(char, int(results)):
             box(sea).findMessageBox
